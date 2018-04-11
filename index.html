@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ozan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div class="headertop">
+        <ul class="headertop-content ">
+            <li class="left">
+                <a href="./index.html">
+                <img class="img-logo" src="./image/logo.png" alt="What To Eat" />
+                </a></li>
+            <li class="left">
+                <input id="input"  placeholder="Tìm kiếm.." type="text" />
+                <img id="search" onclick="check()" src="./image/search.png"/>
+            </li>
+            <li class="left">
+                <div >
+                    <span id="where">Địa điểm:
+                    <select>
+                        <option>Tp.HCM</option>
+                        <option>Hà Nội</option>
+                        <option>Cần Thơ</option>
+                    </select>
+                    </span>
+                </div>
+            </li>
+            <li class="right">
+                <a class="tooltip"ref="#####" id="user"><img src="./image/user.png" alt="User"/>
+                    <div class="tooltiptext">
+                        Hello User
+                    </div>
+                </a>
+            </li>
+            <li class="right">
+                <a class="tooltip" href="#####" id="cart"><img src="./image/cart.png" alt="Giỏ hàng"/>
+                    <div class="tooltiptext">
+                        Cart!!!
+                    </div>
+                </a>
+            </li>
+            <li id="download" class="right">Tải ứng dụng &nbsp;<a href="#######"><img src="./image/android.png" alt="Android"/></a> &nbsp; <a href="#######"><img src="./image/ios.png" alt="IOS"/></a></li>
+        </ul>
+    </div>
+    <div class="thongbao">
+            <span>Quang rất đẹp trai............</span>
+    </div>
+    <div class="header">
+        <ul class="menu">
+            <li class="menu-content left">
+                <a href="#">TRANG CHỦ </a>
+            </li>
+            <li class="menu-content left">
+                <a href="#">MÓN ĂN &nbsp; &or;</a>
+                <ul class="menu-items">
+                        <li class="menu-item">
+                            <a href="##">VIỆT NAM</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="##">ÂU MỸ</a>
+                        </li>
+                        <li class="menu-item">
+                                <a href="##">HÀN QUỐC</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="##">NHẬT BẢN</a>
+                    </li>
+                    </ul>
+            </li>
+            <li class="menu-content left">
+                <a href="#">ĐẶT MÓN GIAO TẬN NHÀ &nbsp; &or;</a>
+            </li>
+            <li class="menu-content left">
+                <a href="#">GIỚI THIỆU </a>
+            </li>
+            <li class="menu-content left">
+                <a href="#">LIÊN HỆ </a>
+            </li>         
+            
+        </ul>
+    </div>
+    <div class="slideshow-container left">
+        <div class="mySlides fade ">
+          <div class="numbertext">1 / 5</div>
+          <img src="./image/1.jpg" alt="Hình 1" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="./image/2.jpg" alt="Hình 2" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="./image/3.png" alt="Hình 3" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="./image/4.jpg" alt="Hình 3" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="./image/5.jpg" alt="Hình 3" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <iframe class="clip right"
+            src="https://www.youtube.com/embed/39Pjp-9waAo?autoplay=1&controls=0&showinfo=0" 
+            frameborder="0"
+            seamless
+            allow="autoplay; encrypted-media" 
+            translate="yes"
+        >
+        </iframe>
+        <br>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+    <div class="body">
+        <h2>Món ăn Việt Nam</h2>
+        <div class="section">
+            <a href="########" title="Click">
+            <div class="section-content left">
+                <img src="./image/banhcuon.jpg" alt="Sản phẩm" title="Bánh cuốn"/>
+                <h4>Bánh cuốn Tây Hồ</h4>
+                <a href="#####" title="393 Sư Vạn Hạnh, P3, Q10, TP.HCM">393 Sư Vạn Hạnh,P3....</a> 
+                <span class="right">20&hearts;</span>             
+            </div>
+            </a>
+            <a href="########" title="Click">
+            <div class="section-content left">
+                <img src="./image/banhcanh.jpg" alt="Sản phẩm" title="Bánh canh cua"/>
+                <h4>Bánh canh cua Hoàng Lan</h4>
+                <a href="#####" title="484 Vĩnh Viễn, Q10, TP.HCM">484 Vĩnh Viễn, Q.10,TP....</a> 
+                <span class="right">55&hearts;</span>             
+            </div>
+            </a>
+            <a href="########" title="Click">
+            <div class="section-content left">
+                <!-- <div class="heart"></div> -->
+                <img src="./image/banhtrang.jpg" alt="Sản phẩm" title="Bánh tráng nướng"/>
+                <h4 >Bánh tráng nướng Cao Thắng </h4>
+                <a href="#####" title="53 57 Cao Thắng , Q3, TP.HCM">53 57 Cao Thắng,Q.3....</a> 
+                <span class="right">28&hearts;</span>             
+            </div>
+            </a>
+            <a href="########" title="Click">
+            <div class="section-content left">
+                <img src="./image/bunbo.jpg" alt="Sản phẩm" title="Bún Bò"/>
+                <h4>Bún Bò Sông Hương</h4>
+                <a href="#####" title="65 Gò Dầu, P.Tân Quý, Q.Tân Phú, Tp.HCM">65 Gò Dầu, P.Tân Quý,....</a> 
+                <span class="right">180&hearts;</span>             
+            </div>
+            </a>
+            <a href="########" title="Click">
+            <div class="section-content left">
+                <img src="./image/pho.jpg" alt="Sản phẩm" title="Phở"/>
+                <h4>Phở Phú Vương</h4>
+                <a href="#####" title="339 Lê Văn Sĩ P1, Q.Tân Bình, TP.HCM">339 Lê Văn Sĩ P1, Q.Tâ....</a> 
+                <span class="right">7896&hearts;</span>             
+            </div>
+            </a>
+            </div>
+        <h2>Món ăn Âu Mỹ</h2>
+        <div class="section">
+            <a href="########" title="Click">
+            <div class="section-content left">
+                <img src="./image/beef.jpg" alt="Sản phẩm" title="Bò BeefSteak"/>
+                <h4>BeefSteak TiTi</h4>
+                <a href="#####" title="67/4/118 Vũ Huy Tấn, P. 3, Quận Bình Thạnh, TP. HCM">67/4/118 Vũ Huy Tấn, P.3....</a> 
+                <span class="right">20&hearts;</span>             
+            </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/kfc.jpg" alt="Sản phẩm" title="KFC"/>
+                    <h4>KFC Quang Trung</h4>
+                    <a href="#####" title="88/1 Quang Trung , P3 , H.Hóc Môn , Tp.HCM ">88/1 Quang Trung , P3 ,....</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+                </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/macdonald.jpg" alt="Sản phẩm" title="Macdonald"/>
+                    <h4>Macdonald Nguyễn Kiệm</h4>
+                    <a href="#####" title="371 Nguyễn Kiệm , P.3 , Q.Phú Nhuận , Tp.HCM">371 Nguyễn Kiệm, P.3 ..</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/mi.jpg" alt="Sản phẩm" title="Spaghetti"/>
+                    <h4>Paste Paradise</h4>
+                    <a href="#####" title="213 Phan Xích Long , P.7 , Q.Phú Nhuận , Tp.HCM ">213 Phan Xích Long....</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/pizza.jpg" alt="Sản phẩm" title="Pizza"/>
+                    <h4>Pizza Company</h4>
+                    <a href="#####" title="75-77 Nguyễn Ảnh Thủ , P.2 , Q.12 , Tp.HCM ">75-77 Nguyễn Ảnh Thủ....</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+        </div>
+        <h2>Món ăn Hàn Quốc</h2>
+        <div class="section">
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/milanh.jpg" alt="Sản phẩm" title="Mì lạnh"/>
+                    <h4>Mì lạnh Yoo Chun</h4>
+                    <a href="#####" title="3 Mỹ Hoàng, Quận 7, TP. HCM">3 Mỹ Hoàng, Quận 7,....</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/comtron.jpg" alt="Sản phẩm" title="Cơm trộn"/>
+                    <h4>Cơm trộn 2 Cô</h4>
+                    <a href="#####" title="250 Lê Văn Sỹ, P. 1, Quận Tân Bình, TP. HCM">250 Lê Văn Sỹ , P.1 ,....</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/kimbap.jpg" alt="Sản phẩm" title="Kimbap"/>
+                    <h4>Kimbap Mara</h4>
+                    <a href="#####" title="558 Sư Vạn Hạnh , P.8 , Q.10 , Tp.HCM ">558 Sư Vạn Hạnh , P.8...</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/kimchi.jpg" alt="Sản phẩm" title="Kimchi"/>
+                    <h4>Kimchi Tươi</h4>
+                    <a href="#####" title="201 Võ Văn Ngân , P.Trường Thọ , Q.Thủ Đức , Tp.HCM">201 Võ Văn Ngân ,...</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+            </a>
+            <a href="########" title="Click">
+                <div class="section-content left">
+                    <img src="./image/suon.jpg" alt="Sản phẩm" title="Sườn Nướng"/>
+                    <h4>Sườn nướng Bilga</h4>
+                    <a href="#####" title="356/2 Nguyễn Trường Tộ , P2 , Tp.Vũng Tàu ">356/2 Nguyễn Trường Tộ...</a> 
+                    <span class="right">20&hearts;</span>             
+                </div>
+                </a>
+        </div>
+        <h2>Món ăn Nhật Bản</h2>
+        <div class="section">
+                <a href="########" title="Click">
+                        <div class="section-content left">
+                            <img src="./image/shabu.jpg" alt="Sản phẩm" title="Shabu Shabu"/>
+                            <h4>Shabu-Shabu ScVivo City</h4>
+                            <a href="#####" title="1058 Nguyễn Văn Linh, KP. 1, P. Tân Phong, Quận 7, TP. HCM">1058 Nguyễn Văn Linh,....</a> 
+                            <span class="right">20&hearts;</span>             
+                        </div>
+                    </a>
+                    <a href="########" title="Click">
+                        <div class="section-content left">
+                            <img src="./image/sushi.jpg" alt="Sản phẩm" title="Sushi"/>
+                            <h4>The Sushi Bar</h4>
+                            <a href="#####" title="99 Xa lộ Hà Nội  PP.An Phú, Quận 2, Hồ Chí Minh">99 Xa lộ Hà Nội P.An Phú...</a> 
+                            <span class="right">20&hearts;</span>             
+                        </div>
+                    </a>
+                    <a href="########" title="Click">
+                        <div class="section-content left">
+                            <img src="./image/udon.jpg" alt="Sản phẩm" title="Udon"/>
+                            <h4>Marukame Udon</h4>
+                            <a href="#####" title="300 Đường 3 Tháng 2,  Quận 10, TP. HCM">300 Đường 3 Tháng 2,Q.10.</a> 
+                            <span class="right">20&hearts;</span>             
+                        </div>
+                    </a>
+                    <a href="########" title="Click">
+                        <div class="section-content left">
+                            <img src="./image/ramen.jpg" alt="Sản phẩm" title="Ramen"/>
+                            <h4>Goku Raku Ramen</h4>
+                            <a href="#####" title="241 Lý Tự Trọng , Q.1 , Tp.HCM">241 Lý Tự Trọng ,...</a> 
+                            <span class="right">20&hearts;</span>             
+                        </div>
+                    </a>
+                    <a href="########" title="Click">
+                        <div class="section-content left">
+                            <img src="./image/sashimi.jpg" alt="Sản phẩm" title="Sashimi"/>
+                            <h4>Sài Gòn Sakura</h4>
+                            <a href="#####" title="100 Nguyễn Du , P.Bến Nghé , Q.1 , Tp.HCM">100 Nguyễn Du , P.Bến...</a> 
+                            <span class="right">20&hearts;</span>             
+                        </div>
+                    </a>
+            </div>
+    </div>
+    <div class="danhgia">
+    <h2>ĐÁNH GIÁ KHÁCH HÀNG VỀ "***"(Đặt tên lại sau)</h2>
+    </div>
+    <div class="footer">
+        <div class="heart"></div>
+    </div>
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
